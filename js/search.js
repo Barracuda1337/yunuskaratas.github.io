@@ -110,14 +110,13 @@
             image: 0,
             target: 0,
             chunk: 50,
-            text: {
-                title: 'Search results for query <em>%s%</em>',
-                loading: 'Searching&hellip;',
-                previous: 'Previous',
-                next: 'Next',
-                empty: 'No results for query <em>%s%</em>.',
-                end: 'No more results for query <em>%s%</em>.'
-            },
+           text: {
+                  title: "<em>%s%</em> için arama sonuçları",
+                  loading: "&hellip;Aranıyor",
+                  previous: "Önceki",
+                  next: "Sonraki",
+                  empty: "<em>%s%</em> için sonuç bulunamadı.",
+                  end: "Başka sonuç yok <em>%s%</em>."},
             query: {
                 'alt': 'json',
                 'orderby': 'updated'
