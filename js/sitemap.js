@@ -220,7 +220,7 @@ function displayToc(filter) {
    }
    tocTable += '</table>';
    if (numDisplayed == postTitle.length) {
-      var tocNote = postTitle.length + '<span class="toc-note">Gönderi ' +  ' Görüntüleniyor<br/></span>'; }
+      var tocNote ='<span class="toc-note">Şuan ' + postTitle.length + 'Adet Gönderi' +  ' Görüntüleniyor<br/></span>'; }
    else {
       var tocNote = '<span class="toc-note">Displaying ' + numDisplayed + ' posts labeled \'';
       tocNote += postFilter + '\' of '+ postTitle.length + ' posts total<br/></span>';
