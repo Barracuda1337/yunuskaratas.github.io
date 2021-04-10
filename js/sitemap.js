@@ -169,11 +169,11 @@ function displayToc(filter) {
 // this function creates a three-column table and adds it to the screen
    var numDisplayed = 0;
    var tocTable = '';
-   var tocHead1 = 'POST TITLE';
-   var tocTool1 = 'Click to sort by title';
-   var tocHead2 = 'POST DATE';
-   var tocTool2 = 'Click to sort by date';
-   var tocHead3 = 'LABELS';
+   var tocHead1 = 'YAZI BAŞLIĞI';
+   var tocTool1 = 'Başlığa göre sırala';
+   var tocHead2 = 'YAYINLANMA TARİHİ';
+   var tocTool2 = 'Tarihe göre sırala';
+   var tocHead3 = 'ETİKETLER';
    var tocTool3 = '';
    if (sortBy == "titleasc") { 
       tocTool1 += ' (descending)';
